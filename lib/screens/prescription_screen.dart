@@ -378,27 +378,7 @@ $prescricao
 
 
 
-            // Botão de Atualizar (Visual)
-
-            ElevatedButton.icon(
-
-              onPressed: _calculatePrescription,
-
-              icon: const Icon(Icons.refresh),
-
-              label: const Text('ATUALIZAR CONDUTA'),
-
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.teal, foregroundColor: Colors.white, minimumSize: const Size(double.infinity, 50)),
-
-            ),
-
-
-
             const SizedBox(height: 20),
-
-
-
-            // Card de Conduta (Aparece ao digitar)
 
             if (_textoOrientacao != null)
 
