@@ -19,7 +19,7 @@ class InsuGuiaApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.teal,
           foregroundColor: Colors.white,
         ),
       ),

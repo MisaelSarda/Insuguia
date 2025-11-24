@@ -156,7 +156,7 @@ class _AddEditPatientScreenState extends State<AddEditPatientScreen> {
               ElevatedButton(
                 onPressed: _saveForm,
                 style: ElevatedButton.styleFrom(
-                   backgroundColor: Colors.blueGrey,
+                   backgroundColor: Colors.teal,
                    padding: const EdgeInsets.symmetric(vertical: 12),
                    textStyle: const TextStyle(fontSize: 18)
                 ),

@@ -188,7 +188,7 @@ class _PatientListScreenState extends State<PatientListScreen> {
 
         },
 
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.teal,
 
         child: const Icon(Icons.add, color: Colors.white),
 
