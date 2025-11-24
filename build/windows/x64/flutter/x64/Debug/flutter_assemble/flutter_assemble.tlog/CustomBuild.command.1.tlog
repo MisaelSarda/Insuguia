@@ -1,0 +1,28 @@
+^C:\USERS\SARDA\DOWNLOADS\INSUGUIA18-11\BUILD\WINDOWS\X64\CMAKEFILES\201E0DF4B6BC3FCF0D5FA5E0140F655E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\sarda\Downloads\Insuguia18-11 FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\sarda\Downloads\Insuguia18-11\windows\flutter\ephemeral PROJECT_DIR=C:\Users\sarda\Downloads\Insuguia18-11 FLUTTER_TARGET=C:\Users\sarda\Downloads\Insuguia18-11\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzUuNi0wLjAucHJlLTI=,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9NaXNhZWxTYXJkYS9mbHV0dGVyLmdpdA==,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MWQxYzUxMjI3Zg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZDNkNDVkY2YyNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjI= DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\sarda\Downloads\Insuguia18-11\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SARDA\DOWNLOADS\INSUGUIA18-11\BUILD\WINDOWS\X64\CMAKEFILES\BBDB9479C3F7C63432308A9CAA63B9CC\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SARDA\DOWNLOADS\INSUGUIA18-11\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sarda/Downloads/Insuguia18-11/windows -BC:/Users/sarda/Downloads/Insuguia18-11/build/windows/x64 --check-stamp-file C:/Users/sarda/Downloads/Insuguia18-11/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

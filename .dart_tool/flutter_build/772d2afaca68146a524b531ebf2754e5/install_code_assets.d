@@ -1,0 +1,1 @@
+ C:\\DESENV_FLUTTER\\Insuguia\\.dart_tool\\flutter_build\\772d2afaca68146a524b531ebf2754e5\\native_assets.json: 
